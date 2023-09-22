@@ -18,7 +18,7 @@ export default function Main() {
         {
             id:1,
             titulo:'Projeto de Basquete',
-            sinopse:"Projeto que realizei com a Professora Catia, onde em horarios a tarde ocorria treinos de basquete na parte da tarde no IFMS",
+            sinopse:"Projeto que realizei com a Professora Catia, onde em horarios a tarde ocorria treinos de basquete na parte da tarde no IFMS campus Navirai",
             imagem:'/baska.png'
         },
         {
