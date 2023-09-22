@@ -1,0 +1,71 @@
+footer {
+  background-color: gray;
+  color: white;
+  padding: 0px ;
+  width: 100%;
+  box-shadow: 0 0 10px black;
+  margin-top: 50px;
+}
+
+.DivPrinc {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  flex: 1;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+footer div p strong {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+footer div ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+footer div ul li {
+  margin-bottom: 10px;
+}
+
+footer div ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+footer div ul li a:hover {
+  text-decoration: underline;
+}
+
+footer div p {
+  margin-bottom: 15px;
+}
+
+.ul2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ul2 li {
+  margin-right: 10px;
+}
+
+.ul2 img {
+  width: 40px;
+  height: 40px;
+}
