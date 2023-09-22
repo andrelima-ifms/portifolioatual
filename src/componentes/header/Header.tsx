@@ -21,7 +21,7 @@ function Header(){
                         <Link texto='Sobre'/>
                     </li>
                     <li>
-                        <Link texto='Contato'/>
+                        <Link texto='Contatos'/>
                     </li>
                 </ul>
             </nav>
