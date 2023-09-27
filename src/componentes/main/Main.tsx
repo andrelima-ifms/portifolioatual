@@ -48,7 +48,17 @@ export default function Main() {
     }
     return (
         <>
-            <img src="/pessoa.jpg" alt="" /> 
+           
+            
+            <div className='Sobremim'>
+                 Sou um aluno do IFMS, onde faço o ensino médio integrado de técnico em informatica para internet.
+                 Onde benza Deus temos o professor careca mais legal do mundo, Guilherme FIgueiredo Terenciani, vulgo Tere, careca ou gordin 
+                 OBS: ele me ama e eu amo ele.
+
+            </div>    
+
+
+
             <div className="campo_pesquisa">
                 <p>Busca</p>
                 <input type="text" 
