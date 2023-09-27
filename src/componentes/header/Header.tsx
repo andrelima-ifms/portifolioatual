@@ -1,6 +1,6 @@
 import './Header.css'
 import Link from './../link/Link'
-import React from 'react'
+
 function Header(){
     return(
         <header>

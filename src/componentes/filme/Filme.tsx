@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Filme.css'
 type FilmeProps = {
     titulo:string,

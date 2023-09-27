@@ -48,6 +48,7 @@ export default function Main() {
     }
     return (
         <>
+            <img src="/pessoa.jpg" alt="" /> 
             <div className="campo_pesquisa">
                 <p>Busca</p>
                 <input type="text" 
@@ -56,10 +57,11 @@ export default function Main() {
                        onChange={TrataTexto} />
                 {texto && <p>Resultados Para: {texto} </p>}
             </div>
+
             <main className="content-main">
-                {
-                   
-                }
+          
+             
+                
                 {
                     filmes.filter((filme)=>filme.titulo.toLowerCase().includes(texto)).map(
                         (filme)=>
