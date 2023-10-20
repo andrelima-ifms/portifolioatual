@@ -1,31 +1,28 @@
 import './Header.css'
-import Link from './../link/Link'
-
+import LinkNav from '../linknav/LinkNav'
 function Header(){
     return(
         <header>
-
-            
             <div>
-            <img src= 'logo.png' alt="Logo"></img>
+                <h1><img src="logo.png" alt="" /></h1> 
             </div>
             <nav>
                 <ul>
                     <li>
-                        <Link texto='Home'/>
+                        <LinkNav url="/" texto='Home'/>
                     </li>
                     <li>
-                        <Link texto='Notícia'/>
+                        <LinkNav url="/noticias" texto='Notícia'/>
+                        
                     </li>
                     <li>
-                        <Link texto='Sobre'/>
+                        <LinkNav url="/sobre" texto='Sobre'/>
                     </li>
                     <li>
-                        <Link texto='Contatos'/>
+                        <LinkNav url="/contato" texto='Contato'/>
                     </li>
                 </ul>
             </nav>
-            
         </header>
     )
 }

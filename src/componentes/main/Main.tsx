@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Filme from './../filme/Filme'
 import './Main.css'
-import React from 'react'
+
 type FilmeType = {
     id:number,
     titulo:string,

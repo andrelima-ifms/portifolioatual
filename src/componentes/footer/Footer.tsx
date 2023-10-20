@@ -1,4 +1,4 @@
-
+import LinkNav from '../linknav/LinkNav'
 import './Footer.css';
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="div1">
              
                 <ul className='ul1'>
-                  <li><a href="#">Inicio</a></li>
+                <li><LinkNav url='#' texto= 'Inicio'/></li>
               
                 </ul>
             </div>
@@ -18,17 +18,17 @@ export default function Footer() {
             <div className="div1">
            
                 <ul className='ul1'>
-                  <li><a href="#">Sobre mim</a></li>
-                  <li><a href="#">Contato</a></li>
-                  <li><a href="#">Blog</a></li>
+                <li><LinkNav url='#' texto= 'Sobre mim'/></li>
+                  <li><LinkNav url='#' texto= 'Contato'/></li>
+                  <li><LinkNav url='#' texto= 'Blog'/></li>
                 </ul>
             </div>
 
             <div className="div1">
             
                 <ul className='ul1'>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="#">Telefones</a></li>
+                <li><LinkNav url='#' texto= 'FAQ'/></li>
+                  <li><LinkNav url='#' texto= 'Telefones'/></li>
                  
                 </ul>
             </div>
